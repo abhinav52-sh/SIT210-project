@@ -1,0 +1,82 @@
+/* CenteredBar.css */
+
+.NavbarItems {
+  background: #1a1a1a;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-logo {
+  color: #fff424;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.CenterContent {
+  display: flex;
+  align-items: center;
+}
+
+.SearchInput {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  margin-right: 10px;
+  width: 250px;
+  transition: all 0.3s ease-in-out;
+}
+
+.SearchInput::placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+
+.SearchInput:focus {
+  width: 300px;
+  outline: none;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  margin-right: -22px;
+}
+
+.nav-menu li {
+  padding: 0 10px;
+}
+
+.nav-links,
+.nav-search {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-search button {
+  background-color: #007bff;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.nav-search button:hover {
+  background-color: #0056b3;
+}
+
+.fa-search {
+  margin-right: 5px;
+}

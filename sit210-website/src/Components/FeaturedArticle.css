@@ -1,0 +1,56 @@
+/* FeaturedArticle.css */
+
+.FeaturedArticle {
+  background-color: #f2f2f2; /* Background color for the entire section */
+  padding: 40px 0; /* Adjust padding as needed */
+}
+
+.ArticleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1200px; /* Adjust the maximum width as needed */
+}
+
+.Article {
+  width: 30%; /* Adjust the width of each article card as needed */
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 15px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.Article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.ArticleImage {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.ArticleDetails {
+  padding: 20px;
+}
+
+.Name {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #333;
+}
+
+.data{
+  text-align: left;
+}
+
+/* Animation for hover effect */
+.ArticleDetails h2:hover {
+  color: #ff5722; /* Change text color on hover */
+  transition: color 0.2s ease-in-out;
+}

@@ -1,0 +1,19 @@
+/* Header.css */
+
+.Header {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  img {
+    width: 100%;
+    max-height: 300px; /* Adjust the maximum height as needed */
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  img:hover {
+    transform: scale(1.05); /* Increase image size on hover */
+    transition: transform 0.3s ease-in-out;
+  }
+  
