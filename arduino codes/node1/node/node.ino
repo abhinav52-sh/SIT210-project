@@ -20,13 +20,13 @@
     GND         ->   GND
     -----------------------------------
 
-    Module MAX30102 // Arduino UNO/NANO     
+    Module MQ4 // Arduino UNO/NANO     
     Vcc         ->   5V
     AO          ->   A0   
     GND         ->   GND
     -----------------------------------
 
-    Module MAX30102 // Arduino UNO/NANO     
+    Module MQ5 // Arduino UNO/NANO     
     Vcc         ->   5V
     AO          ->   A1   
     GND         ->   GND
